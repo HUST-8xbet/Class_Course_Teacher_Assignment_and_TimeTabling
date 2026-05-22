@@ -8,13 +8,7 @@ Bài: Class - Course - Teacher Assignment and Timetabling
 - Thuật toán tiến hóa tối ưu "thứ tự xếp lớp-môn" thay vì chỉ mutate lịch đã xếp.
 - Decode một chromosome bằng randomized greedy.
 - Có local search phá lịch rồi xếp lại theo thứ tự ưu tiên mới.
-- Trả về nghiệm tốt nhất giữa GREEDY và EVOLUTIONARY, nên kết quả KHÔNG BAO GIỜ thấp hơn greedy.
-
-Chạy batch:
-    python evolutionary_timetabling_solver.py
-
-Chạy 1 file:
-    python evolutionary_timetabling_solver.py Datasets/Uniform/xxx.txt
+- Trả về nghiệm tốt nhất giữa GREEDY và EVOLUTIONARY
 """
 
 import os
