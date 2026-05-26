@@ -200,5 +200,5 @@
 60 50 49 12
 70 50 55 12
 Điểm tối ưu: 200
-Thời gian: 0.008160 giây
+Thời gian: 0.003020 giây
 Trạng thái: GREEDY_DONE

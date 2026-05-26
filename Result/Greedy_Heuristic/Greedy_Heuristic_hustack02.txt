@@ -167,5 +167,5 @@
 42 44 25 7
 57 44 43 7
 Điểm tối ưu: 167
-Thời gian: 0.006182 giây
+Thời gian: 0.002420 giây
 Trạng thái: GREEDY_DONE

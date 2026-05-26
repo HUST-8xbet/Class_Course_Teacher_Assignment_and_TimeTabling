@@ -69,5 +69,5 @@
 7 1 19 4
 17 1 21 4
 Điểm tối ưu: 69
-Thời gian: 0.001106 giây
+Thời gian: 0.001082 giây
 Trạng thái: GREEDY_DONE
