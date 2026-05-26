@@ -318,5 +318,5 @@
 81 13 29 18
 93 13 35 18
 Điểm tối ưu: 318
-Thời gian: 0.009369 giây
+Thời gian: 0.006446 giây
 Trạng thái: GREEDY_DONE

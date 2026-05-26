@@ -37,5 +37,5 @@
 9 7 13 3
 10 7 15 3
 Điểm tối ưu: 37
-Thời gian: 0.001639 giây
+Thời gian: 0.000776 giây
 Trạng thái: GREEDY_DONE

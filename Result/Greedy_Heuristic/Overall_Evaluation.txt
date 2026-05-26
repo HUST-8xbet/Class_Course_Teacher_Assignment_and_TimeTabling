@@ -1,3 +1,3 @@
 Thuật toán: SMART GREEDY + DOUBLE HEURISTICS
 Số bài giải thành công: 60
-Thời gian trung bình: 1.361656 giây
+Thời gian trung bình: 1007.74 ms

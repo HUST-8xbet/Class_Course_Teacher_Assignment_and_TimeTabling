@@ -111,7 +111,7 @@ for file in os.listdir(INPUT_DIR):
     out_file = os.path.join(RESULT_DIR, f"{SOLVER_NAME}_{basename}.txt")
     write_result(out_file, assignments, obj_val, exec_time)
     
-    print(f"[{basename}] - Đã xếp: {obj_val}/{len(tasks)} tasks - Thời gian: {exec_time:.4f}s")
+    print(f"[{basename}] - Đã xếp: {obj_val}/{len(tasks)} tasks - Thời gian: {exec_time * 1000:<.2f}ms")
     
     runs += 1
     total_time += exec_time
@@ -121,6 +121,6 @@ for file in os.listdir(INPUT_DIR):
 with open(os.path.join(RESULT_DIR, "Overall_Evaluation.txt"), 'w', encoding='utf-8') as f:
     f.write(f"Thuật toán: SMART GREEDY + DOUBLE HEURISTICS\n")
     f.write(f"Số bài giải thành công: {runs}\n")
-    f.write(f"Thời gian trung bình: {total_time/runs if runs else 0:.6f} giây\n")
+    f.write(f"Thời gian trung bình: {total_time/runs * 1000 if runs else 0:.2f} ms\n")
 
-print(f"\nHoàn thành! Đã chạy mượt mà {runs} file. Thời gian trung bình: {total_time/runs:.6f} giây/bài.")
+print(f"\nHoàn thành! Đã chạy mượt mà {runs} file. Thời gian trung bình: {total_time/runs * 1000:.2f} ms/bài.")
