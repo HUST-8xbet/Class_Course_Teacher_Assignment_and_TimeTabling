@@ -1,14 +1,12 @@
 """
-Evolutionary Timetabling Solver — stronger-than-greedy baseline
-===============================================================
-Bài: Class - Course - Teacher Assignment and Timetabling
-
 Ý tưởng chính:
 - Luôn chạy smart greedy làm baseline.
 - Thuật toán tiến hóa tối ưu "thứ tự xếp lớp-môn" thay vì chỉ mutate lịch đã xếp.
 - Decode một chromosome bằng randomized greedy.
 - Có local search phá lịch rồi xếp lại theo thứ tự ưu tiên mới.
 - Trả về nghiệm tốt nhất giữa GREEDY và EVOLUTIONARY
+
+
 """
 
 import os
