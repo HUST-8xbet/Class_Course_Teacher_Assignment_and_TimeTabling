@@ -1,0 +1,6 @@
+=== BÁO CÁO TỔNG HỢP KẾT QUẢ PYWRAPLP ===
+- Tổng số bài test đã quét: 45 bài
+- Số bài giải thành công (Feasible + Optimal): 45 bài
+- Số bài đạt mức Tối ưu tuyệt đối (Optimal): 16 bài
+- Thời gian chạy trung bình: 671.7898 giây
+==========================================

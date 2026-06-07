@@ -1,3 +1,0 @@
-Số bài giải thành công: 60
-Số bài đạt OPTIMUM: 10/60
-Thời gian trung bình: 470.0945 giây
