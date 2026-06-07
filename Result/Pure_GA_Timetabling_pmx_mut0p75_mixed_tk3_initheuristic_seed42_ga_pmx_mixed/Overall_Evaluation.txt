@@ -1,0 +1,15 @@
+Thuật toán: Pure_GA_Timetabling
+Loại: Pure Genetic Algorithm with Randomized Greedy Decoder
+Local search: Không sử dụng
+Destroy-Repair/LNS: Không sử dụng
+Tổng file: 60
+Thời gian TB: 334.411092 giây
+
+Bộ dataset                 Files          Obj/Total     Greedy   Better    Equal    Worse  Invalid    AvgTime
+-------------------------------------------------------------------------------------------------------------------
+Adversarial                   10    42180/47899         42180        0       10        0        0     395.13
+Exponential                   10    43748/47900         43737        1        9        0        0     395.12
+Gaussian                      10    46976/47899         46824        9        1        0        0     395.17
+Poisson                       10    46725/47899         46565        7        3        0        0     395.23
+Uniform                       10    46370/47899         46227        5        5        0        0     395.32
+hustack                       10     1631/1903           1628        2        8        0        0      30.49
