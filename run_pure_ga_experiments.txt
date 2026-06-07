@@ -1,0 +1,107 @@
+# 1. HEURISTIC BASE: Order Crossover + Mixed Mutation
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.75 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag ga_base_ox_mixed
+
+
+# 2. HEURISTIC LOW MUTATION
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.40 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag ga_low_mutation_0p4
+
+# 3. HEURISTIC HIGH MUTATION
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.90 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --init-mode heuristic \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag ga_high_mutation_0p9
+
+
+# 4. HEURISTIC PMX CROSSOVER
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.75 \
+  --crossover-type pmx \
+  --mutation-type mixed \
+  --init-mode heuristic \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag ga_pmx_mixed
+
+
+# 5. RANDOM BASE: Order Crossover + Mixed Mutation
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.75 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --init-mode random \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag r_base_ox_mixed
+
+
+# 6. RANDOM LOW MUTATION
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.40 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --init-mode random \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag r_low_mutation_0p4
+
+
+# 7. RANDOM HIGH MUTATION
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.90 \
+  --crossover-type ox \
+  --mutation-type mixed \
+  --init-mode random \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag r_high_mutation_0p9
+
+
+# 8. RANDOM PMX CROSSOVER
+!python genetic_timetabling_solver_cli.py \
+  --pop-size 40 \
+  --elite 5 \
+  --crossover-rate 0.85 \
+  --mutation-rate 0.75 \
+  --crossover-type pmx \
+  --mutation-type mixed \
+  --init-mode random \
+  --tournament-k 3 \
+  --seed 42 \
+  --tag r_pmx_mixed

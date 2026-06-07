@@ -1,0 +1,2 @@
+dataset,file,generation,phase,best_fitness,avg_fitness,worst_fitness,total_tasks,best_rate,avg_rate,elapsed_sec,remaining_sec,stagnant,population_size,elite,crossover_rate,mutation_rate,crossover_type,mutation_type,tournament_k,init_mode,seed
+hustack,hustack10,0,greedy_full,12,12.0,12,12,1.0,1.0,7.386300057987683e-05,19.99992554200071,0,1,5,0.85,0.9,ox,mixed,3,heuristic,42
