@@ -5,9 +5,9 @@ from collections import defaultdict
 from ortools.sat.python import cp_model
 
 # Cấu hình đường dẫn cho Kaggle
-INPUT_DIR = "/kaggle/input/dataset2/" # Thay đổi tương ứng với tên Dataset bạn up lên
-OUTPUT_DIR = "/kaggle/working/Result/CPSAT_Kaggle"
-TIME_LIMIT_SEC = 600 
+INPUT_DIR = "/kaggle/input/datasets/m1nh12345/dataset2/Datasets" # Thay đổi tương ứng với tên Dataset bạn up lên
+OUTPUT_DIR = "/kaggle/working/Result/CPSAT"
+TIME_LIMIT_SEC = 1000
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -102,8 +102,6 @@ for file in files:
     
     # Tận dụng 4 nhân CPU của Kaggle để chạy song song nhiều Heuristics
     solver.parameters.num_search_workers = 4 
-    
-    # In tiến trình giải để Kaggle không ngắt kết nối (Idle Timeout)
     solver.parameters.log_search_progress = True 
 
     start_time = time.time()

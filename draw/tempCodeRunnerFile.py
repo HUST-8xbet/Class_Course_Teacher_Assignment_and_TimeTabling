@@ -1,0 +1,1 @@
+{"name": "CP-SAT (Exact)", "dir": os.path.join("Result", "CPSAT"), "color": "#ff7f0e", "marker": "s"},

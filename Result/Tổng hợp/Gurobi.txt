@@ -1,0 +1,8 @@
+=========================================
+      BÁO CÁO TỔNG HỢP GUROBI
+=========================================
+Tổng số bài đã giải thành công: 50 bài
+Số bài đạt đỉnh OPTIMUM: 47 bài
+Số bài chạm FEASIBLE (hết giờ): 3 bài
+Thời gian chạy trung bình: 121571.6200 ms
+=========================================

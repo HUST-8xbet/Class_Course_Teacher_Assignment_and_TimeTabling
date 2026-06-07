@@ -1,0 +1,4 @@
+0
+Trạng thái: FEASIBLE
+Điểm tối ưu: 0
+Thời gian: 1002.8544 giây
